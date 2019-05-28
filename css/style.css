@@ -1,16 +1,97 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-* {
-	box-sizing: border-box;
-}
-
 html {
-	font: 10px/1.6 Georgia, serif;
+	font: 10px/1.6 "Open Sans", serif;
 	height: 100%;
 }
 
 body {
 	font-size: 1.6rem;
 	color: #333;
-	background-color: #464f54;
 	min-height: 100%;
+}
+
+.container {
+	background-image: url('../img/chess_desk.jpg');
+	width: 950px;
+	height: 950px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.checkouts {
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.black {
+	background-color: brown;
+}
+
+.col-1 {
+	left: 55px;
+}
+
+.col-2 {
+	left: 167px;
+}
+
+.col-3 {
+	left: 271px;
+}
+
+.col-4 {
+	left: 377px;
+}
+
+.col-5 {
+	left: 485px;
+}
+
+.col-6 {
+	left: 592px;
+}
+
+.col-7 {
+	left: 700px;
+}
+
+.col-8 {
+	left: 805px;
+}
+
+
+.row-1 {
+	top: 57px;
+}
+
+.row-2 {
+	top: 165px;
+}
+
+.row-3 {
+	top: 271px;
+}
+
+.row-4 {
+	top: 377px;
+}
+
+.row-5 {
+	top: 485px;
+}
+
+.row-6 {
+	top: 592px;
+}
+
+.row-7 {
+	top: 700px;
+}
+
+.row-8 {
+	top: 805px;
+}
